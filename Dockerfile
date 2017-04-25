@@ -1,4 +1,6 @@
 FROM ubuntu:16.04
+LABEL maintainer "jordsti <jord52@gmail.com>"
+EXPOSE 34197
 
 RUN apt-get update
 RUN apt-get install wget -y
