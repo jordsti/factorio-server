@@ -7,7 +7,7 @@ RUN apt-get update
 RUN apt-get install wget -y
 RUN apt-get install xz-utils -y
 
-RUN wget https://www.factorio.com/get-download/0.15.8/headless/linux64
+RUN wget https://www.factorio.com/get-download/0.15.10/headless/linux64
 RUN tar -xvf linux64
 RUN mkdir /factorio/saves
 RUN cp /factorio/data/server-settings.example.json /factorio/saves/server-settings.json
